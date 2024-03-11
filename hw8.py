@@ -16,3 +16,6 @@ def min_cost_to_connect_cables(cables):
         heapq.heappush(cables, combined_cable)
 
     return total_cost
+
+cables = [5, 4, 2, 8, 6]
+print(min_cost_to_connect_cables(cables))
